@@ -11,7 +11,10 @@
 
 
 /* Fonts */
-
+@font-face {
+    font-family: "font of all knowledge";
+    src: url(Fonts/ArcherPro-Medeium.otf);
+}
 body
 {
 	font-family: "Archer Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;;
@@ -22,3 +25,25 @@ h1,h2,h3,h4,h5 {
 }
 
 /* Header */
+.hdrOuter
+{}
+	.hdrTop
+	{}
+		.social
+		{}
+		.title
+		{}
+		.fodder
+		{}
+	.hdrNav
+	{}
+		.navList
+		{}
+			.navItem
+			{}
+				.navLabel
+				{}
+				.dropdown
+				{}
+					.dropdownContent
+					{}
