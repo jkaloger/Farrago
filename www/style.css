@@ -17,33 +17,96 @@
 }
 body
 {
-	font-family: "Archer Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+	font-family: "Archer Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: black;
 }
 
 h1,h2,h3,h4,h5 {
 	font-family: "Cabin";
 }
 
+.container
+{
+	background: white;
+}
+
 /* Header */
-.hdrOuter
-{}
+.hdrOuter *
+{
+	
+}
 	.hdrTop
-	{}
+	{
+		text-align: center;
+	}
 		.social
 		{}
 		.title
-		{}
+		{
+			text-transform: uppercase;
+		} 
+			.title h1
+			{
+				font-weight: 800;
+			}
+
 		.fodder
 		{}
 	.hdrNav
-	{}
+	{
+		/* height larger for a bit of runoff */
+		height: 65px;
+		line-height: 45px;
+		/* DEBUG
+		 * background: yellow;
+		 */
+	}
 		.navList
-		{}
-			.navItem
-			{}
+		{
+			/* since inline-block on li elements will include whitespace
+			 * from \n in source, we set this font-size to 0
+			 * then back to 16px further down
+			 */
+			font-size: 0;
+		}
+			.navList a
+			{
+				color: inherit;
+				transition: color .3333s ease;
+				text-decoration: none;
+			}
+			.navList li
+			{
+				list-style: none;
+				display: inline-block;
+				/* set back to 16px from 0 */
+				font-size: 16px;
+			}
+			/* conditional for navitem
+			 * it will eventually get too wide for mobile
+			 */
+			@media (min-width: 800px) {
+				.navItem
+				{
+					transition: background-color .3333s ease;
+					text-align: center;
+					font-size: 1.2em;
+					width: 20%;
+				}
+			}
+				.navItem:hover
+				{
+					background-color: pink;
+					color: white;
+					cursor: pointer;
+				}
 				.navLabel
-				{}
+				{
+					text-transform: uppercase;
+				}
 				.dropdown
-				{}
+				{
+					display: none;
+				}
 					.dropdownContent
 					{}
