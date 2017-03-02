@@ -6,18 +6,67 @@
 </head>
 <body>
     <div class="container">
-        <header></header>
-        <div>
-            <ul class="nav">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
+        <header class="hdrOuter">
+            <div class="hdrTop">
+                <ul>
+                    <li class="social"></li>
+                    <li class="social"></li>
+                    <li class="social"></li>
+                    <li class="social"></li>
+                    <li class="title"></li>
+                    <li class="fodder"></li>
+                </ul>
+            </div>
+            <nav class="hdrNav">
+                <ul class="navList">
+                    <li class="navItem">
+                        <div class="dropdown">
+                            <ul class="dropdownContent">
+                                <?php 
+                                // create li elements dynamically?
+                                ?>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navItem">
+                        <div class="dropdown">
+                            <ul class="dropdownContent">
+                                <?php 
+                                // create li elements dynamically?
+                                ?>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navItem">
+                        <div class="dropdown">
+                            <ul class="dropdownContent">
+                                <?php 
+                                // create li elements dynamically?
+                                ?>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navItem">
+                        <div class="dropdown">
+                            <ul class="dropdownContent">
+                                <?php 
+                                // create li elements dynamically?
+                                ?>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navItem">
+                        <div class="dropdown">
+                            <ul class="dropdownContent">
+                                <?php 
+                                // create li elements dynamically?
+                                ?>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     </div>
     
 </body>
