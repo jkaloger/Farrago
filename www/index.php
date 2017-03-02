@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
 </head>
 <body>
+    <!-- container for all elements -->
     <div class="container">
+    
         <header class="hdrOuter">
             <div class="hdrTop">
                 <ul>

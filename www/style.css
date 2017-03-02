@@ -1,0 +1,24 @@
+/* Farrago Web Styles
+ * Copyright Jack Kaloger 2017
+ * Original Design by Jenny Huynh
+ */
+
+/* get rid of stupid css defaults */
+*
+{
+	margin:0;padding:0;
+}
+
+
+/* Fonts */
+
+body
+{
+	font-family: "Archer Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: "Cabin";
+}
+
+/* Header */
