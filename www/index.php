@@ -5,8 +5,11 @@
     <title></title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="skeleton.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- slick import -->
+    <link rel="stylesheet" href="css/slick.css">
 
 
     <!-- Fonts -->
@@ -102,15 +105,24 @@
         </header>
     
         <div class="hero">
-            <div class="slider">
-                <div class="sliderGallery">
-                </div>
-                <nav class="sliderNav">
-                </nav>
+            <div class="sliderGallery">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
             </div>
         </div>
         <!-- end of container -->
         </div>
     
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.sliderGallery').slick();
+    });
+  </script>
 </body>
 </html>
