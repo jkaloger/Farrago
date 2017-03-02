@@ -100,7 +100,17 @@
                 </ul>
             </nav>
         </header>
-    </div>
+    
+        <div class="hero">
+            <div class="slider">
+                <div class="sliderGallery">
+                </div>
+                <nav class="sliderNav">
+                </nav>
+            </div>
+        </div>
+        <!-- end of container -->
+        </div>
     
 </body>
 </html>
