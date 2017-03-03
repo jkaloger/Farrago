@@ -117,12 +117,14 @@ h1,h2,h3,h4,h5 {
 	.sliderGallery
 	{
 		width: 100%;
-		height: 480px;
+		height: 360px;
 		background: gray;
 	}
-		.sliderElement
+		.sliderElement img
 		{
-
+			width: 100%;
+			height: 100%;
+			display: cover;
 		}
 
 

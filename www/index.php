@@ -112,7 +112,16 @@
                 <div class="sliderElement">B</div>
                 <div class="sliderElement">C</div>
             </div>
+
+            <div class="tileGallery">
+                <!-- Scrollable tiles -->
+            </div>
         </div>
+
+        <div class="section">
+            <div class="sectionTitle">
+
+            </div>
         <!-- end of container -->
         </div>
     
