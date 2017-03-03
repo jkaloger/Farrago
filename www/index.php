@@ -122,6 +122,13 @@
             <div class="sectionTitle">
 
             </div>
+
+            <div class="video">
+            a
+                <div class="videoTime">
+                    <p>1:23</p>
+                </div>
+            </div>
         <!-- end of container -->
         </div>
     
