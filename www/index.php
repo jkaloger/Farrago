@@ -10,6 +10,8 @@
 
     <!-- slick import -->
     <link rel="stylesheet" href="css/slick.css">
+    <!-- for now, we'll use the default theme -->
+    <link rel="stylesheet" href="css/slick-theme.css">
 
 
     <!-- Fonts -->
@@ -106,9 +108,9 @@
     
         <div class="hero">
             <div class="sliderGallery">
-                <div>A</div>
-                <div>B</div>
-                <div>C</div>
+                <div class="sliderElement">A</div>
+                <div class="sliderElement">B</div>
+                <div class="sliderElement">C</div>
             </div>
         </div>
         <!-- end of container -->
@@ -121,7 +123,11 @@
 
   <script type="text/javascript">
     $(document).ready(function(){
-      $('.sliderGallery').slick();
+      $('.sliderGallery').slick({
+        arrows: false,
+        autoplay: true,
+        dots: true
+      });
     });
   </script>
 </body>
