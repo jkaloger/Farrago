@@ -31,6 +31,7 @@ h1,h2,h3,h4,h5 {
 	background: white;
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-bottom: 30px;
 }
 
 /* Header */
@@ -206,14 +207,9 @@ h1,h2,h3,h4,h5 {
 
 .footer
 {
-	margin-top: 30px;
+	margin-top: 0;
 	background: black;
 	color: white;
-	/* push out container */
-	margin-left: -15px;
-	padding-right: 30px;
-	/* fix offset from padding-right */
-	padding-left: 15px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	width: 100%;
