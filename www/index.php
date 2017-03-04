@@ -119,16 +119,25 @@
         </div>
 
         <div class="section">
-            <div class="sectionTitle">
-
+            <div class="sectionTitle twelve columns">
+                <h2><span>video</span></h2>
             </div>
 
-            <div class="video">
-            a
-                <div class="videoTime">
-                    <p>1:23</p>
+            <div class="row">
+
+                <div class="video six columns">
+                    <div class="videoTime">
+                        <p>1:23</p>
+                    </div>
                 </div>
+                <div class="video six columns">
+                    <div class="videoTime">
+                        <p>1:23</p>
+                    </div>
+                </div>
+
             </div>
+        </div>
         <!-- end of container -->
         </div>
     

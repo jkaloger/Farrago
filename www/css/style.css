@@ -23,17 +23,20 @@ body
 
 h1,h2,h3,h4,h5 {
 	font-family: "Cabin";
+	letter-spacing: 1px;
 }
 
 .container
 {
 	background: white;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 /* Header */
-.hdrOuter *
+.hdrOuter
 {
-	
+	padding-top: 15px;
 }
 	.hdrTop
 	{
@@ -41,6 +44,12 @@ h1,h2,h3,h4,h5 {
 	}
 		.social
 		{}
+		@media (max-width: 800px) {
+			.social
+			{
+				display: none;
+			}
+		}
 		.title
 		{
 			text-transform: uppercase;
@@ -128,11 +137,37 @@ h1,h2,h3,h4,h5 {
 		}
 
 .section
-{}
+{
+	margin-top: 60px;
+}
+	.sectionTitle
+	{
+		margin-bottom: 3em;
+	}
+	.sectionTitle h2
+	{
+		text-transform: uppercase;
+		text-align: center;
+	}
+	/* we want a line across the page */
+	.sectionTitle h2:after
+	{
+		content:'';
+		display: block;
+		border-bottom: 2px solid black;
+		/* lift line up to center */
+		margin-top: -.66em;;
+	}
+	.sectionTitle span
+	{
+		background: white;
+		border: 1px solid black;
+		/* padding will push lines further away */
+		padding: 10px;
+	}
 	.video
 	{
 		height: 240px;
-		width: 480px;
 		background: gray;
 		position: relative;
 	}
@@ -165,6 +200,10 @@ h1,h2,h3,h4,h5 {
 		.videoPlay
 		{}
 
+.gray
+{
+	background: gray;
+}
 
 
 
