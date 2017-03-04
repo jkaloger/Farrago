@@ -138,8 +138,30 @@
 
             </div>
         </div>
-        <!-- end of container -->
+
+        <div class="footer">
+            <div class="row newsletter">
+                <div class="empty one-third column">
+                    &nbsp;
+                </div>
+                <div class="one-third column">
+                    Sign up to newsletter etc
+                </div>
+                <div class="empty one-third column">
+                    &nbsp;
+                </div>
+            </div>
+
+            <div class="row footerSocial">
+
+            </div>
+
+            <div class="row links">
+
+            </div>
         </div>
+        <!-- end of container -->
+    </div>
     
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
