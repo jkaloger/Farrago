@@ -51,6 +51,9 @@
             </div>
             <nav class="hdrNav-Sticky">
                 <ul class="navList">
+                    <!--<li class="navItem">
+                        <a class="navLabel"><img height="65px" id="hdrLogo-Sticky" src="img/logoFarrago.png"></a>
+                    </li>-->
                     <li class="navItem">
                         <a class="navLabel">
                             Campus

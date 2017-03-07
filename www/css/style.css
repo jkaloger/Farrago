@@ -105,7 +105,7 @@ h1,h2,h3,h4,h5 {
 				font-size: 16px;
 			}
 			/* conditional for navitem
-			 * it will eventually get too wide for mobile
+			 * text will eventually get too wide for mobile
 			 */
 			@media (min-width: 800px) {
 				.navItem
@@ -282,6 +282,9 @@ h1,h2,h3,h4,h5 {
 
 
 
+#hdrLogo-Sticky {
+	height: 65px;
+}
 
 
 
