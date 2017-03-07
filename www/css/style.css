@@ -178,6 +178,7 @@ h1,h2,h3,h4,h5 {
 			height: 240px;
 		}
 
+
 	/* VIDEO */
 	.video
 	{
@@ -256,6 +257,7 @@ h1,h2,h3,h4,h5 {
 	display: inline-block;
 	background-color: #DDD;
 	padding: 5px 10px 5px 10px;
+	margin-bottom: 5px;
 
 }
 	.tag:hover {

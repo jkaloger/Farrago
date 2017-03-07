@@ -161,23 +161,37 @@
             <div class="row">
 
                 <div class="article six columns">
-                    <img class="articleIMG" src="">
+                    <a href="#"><img class="hvr-float articleIMG" width="100%" src="http://placehold.it/1280x1080"></a>
                     <h3>title</h3>
                     <span>Author</span>
                     <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. magni dolores eos qui ratione voluptatem sequi nesciunt.
                     </p>
+                    <div class="tag hvr-grow">this is a tag</div>
+                    <div class="tag hvr-grow">tag2</div>
+                    <div class="tag hvr-grow">tag3</div>
+                    <div class="tag hvr-grow">tag4</div>
+                    <div class="tag hvr-grow">tag5</div>
+                    <div class="tag hvr-grow">tag6</div>
+                    <div class="tag hvr-grow">tag7</div>
+                    <div class="tag hvr-grow">tag8</div>
+                    <div class="tag hvr-grow">tag9</div>
+                    <div class="tag hvr-grow">tag10</div>
+                    <div class="tag hvr-grow">tag11</div>
+                    <div class="tag hvr-grow">tag12</div>
+                    <div class="tag hvr-grow">tag13</div>
+                    <div class="tag hvr-grow">tag14</div>
                 </div>
                 <div class="article six columns">
-                    <img class="articleIMG" src="">
+                    <a href="#"><img class="hvr-float articleIMG" width="100%" src="http://placehold.it/1280x1080"></a>
                     <h3>title</h3>
                     <span>Author</span>
                     <p>
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. magni dolores eos qui ratione voluptatem sequi nesciunt.
                     </p>
-                    <span class="tag hvr-underline-from-left">tag1</span>
-                    <span class="tag hvr-underline-from-left">tag2</span>
-                    <span class="tag hvr-underline-from-left">tag3</span>
+                    <div class="tag hvr-grow">tag1</div>
+                    <div class="tag hvr-grow">tag2</div>
+                    <div class="tag hvr-grow">tag3</div>
                 </div>
 
             </div>
