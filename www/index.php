@@ -49,7 +49,7 @@
                     <div class="fodder two columns u-pull-right">F</div>
                 </div>
             </div>
-            <nav class="hdrNav">
+            <nav class="hdrNav-Sticky">
                 <ul class="navList">
                     <li class="navItem">
                         <a class="navLabel">
@@ -167,20 +167,20 @@
                     <p>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. magni dolores eos qui ratione voluptatem sequi nesciunt.
                     </p>
-                    <div class="tag hvr-grow">this is a tag</div>
-                    <div class="tag hvr-grow">tag2</div>
-                    <div class="tag hvr-grow">tag3</div>
-                    <div class="tag hvr-grow">tag4</div>
-                    <div class="tag hvr-grow">tag5</div>
-                    <div class="tag hvr-grow">tag6</div>
-                    <div class="tag hvr-grow">tag7</div>
-                    <div class="tag hvr-grow">tag8</div>
-                    <div class="tag hvr-grow">tag9</div>
-                    <div class="tag hvr-grow">tag10</div>
-                    <div class="tag hvr-grow">tag11</div>
-                    <div class="tag hvr-grow">tag12</div>
-                    <div class="tag hvr-grow">tag13</div>
-                    <div class="tag hvr-grow">tag14</div>
+                    <div class="tag hvr-underline-from-left">this is a tag</div>
+                    <div class="tag hvr-underline-from-left">tag2</div>
+                    <div class="tag hvr-underline-from-left">tag3</div>
+                    <div class="tag hvr-underline-from-left">tag4</div>
+                    <div class="tag hvr-underline-from-left">tag5</div>
+                    <div class="tag hvr-underline-from-left">tag6</div>
+                    <div class="tag hvr-underline-from-left">tag7</div>
+                    <div class="tag hvr-underline-from-left">tag8</div>
+                    <div class="tag hvr-underline-from-left">tag9</div>
+                    <div class="tag hvr-underline-from-left">tag10</div>
+                    <div class="tag hvr-underline-from-left">tag11</div>
+                    <div class="tag hvr-underline-from-left">tag12</div>
+                    <div class="tag hvr-underline-from-left">tag13</div>
+                    <div class="tag hvr-underline-from-left">tag14</div>
                 </div>
                 <div class="article six columns">
                     <a href="#"><img class="hvr-float articleIMG" width="100%" src="http://placehold.it/1280x1080"></a>
@@ -189,9 +189,9 @@
                     <p>
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. magni dolores eos qui ratione voluptatem sequi nesciunt.
                     </p>
-                    <div class="tag hvr-grow">tag1</div>
-                    <div class="tag hvr-grow">tag2</div>
-                    <div class="tag hvr-grow">tag3</div>
+                    <div class="tag hvr-underline-from-left">tag1</div>
+                    <div class="tag hvr-underline-from-left">tag2</div>
+                    <div class="tag hvr-underline-from-left">tag3</div>
                 </div>
 
             </div>
