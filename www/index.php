@@ -202,7 +202,17 @@
         </div>
 
         <div class="row links">
-
+            <div class="FLogo one-third column">
+                <img src="img/logoFarrago_white.png" width="100%">
+            </div>
+            <div class="links one-third column">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="umsuLogo empty one-third column">
+                <img src="img/umsuLogo.png" width="100%">
+            </div>
         </div>
     </div>
         
