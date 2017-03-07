@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- hover effects -->
+    <link rel="stylesheet" href="css/hover-min.css">
+
     <!-- slick import -->
     <link rel="stylesheet" href="css/slick.css">
     <!-- for now, we'll use the default theme -->
@@ -149,6 +152,36 @@
 
             </div>
         </div>
+
+        <div class="section">
+            <div class="sectionTitle twelve columns">
+                <h2><span>Commentary</span></h2>
+            </div>
+
+            <div class="row">
+
+                <div class="article six columns">
+                    <img class="articleIMG" src="">
+                    <h3>title</h3>
+                    <span>Author</span>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    </p>
+                </div>
+                <div class="article six columns">
+                    <img class="articleIMG" src="">
+                    <h3>title</h3>
+                    <span>Author</span>
+                    <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    </p>
+                    <span class="tag hvr-underline-from-left">tag1</span>
+                    <span class="tag hvr-underline-from-left">tag2</span>
+                    <span class="tag hvr-underline-from-left">tag3</span>
+                </div>
+
+            </div>
+        </div>
     <!-- end of container -->
     </div>
 
@@ -166,7 +199,6 @@
         </div>
 
         <div class="row footerSocial">
-
         </div>
 
         <div class="row links">
