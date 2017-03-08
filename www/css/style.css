@@ -255,6 +255,44 @@ h1,h2,h3,h4,h5 {
 	.links
 	{}
 
+/* HAMBURGER */
+.hamburger
+{
+	display:inline-block;
+	height: 28px;
+	width: 36px;
+	padding: 10px;
+}
+	.hamburger-in,
+	.hamburger-in::after,
+	.hamburger-in::before
+	{
+		position: absolute;
+		width: 36px;
+		height: 5px;
+		background: black;
+	}
+	.hamburger-in::after,
+	.hamburger-in::before
+	{
+		content: '';
+		display: block;
+	}
+	.hamburger-in::after
+	{
+		top: 14px;
+	}
+	.hamburger-in::before
+	{
+		top: 28px;
+	}
+	.hamburger:hover
+	{
+		cursor:pointer;
+	}
+	.active
+	{}
+
 /* DEBUG */
 .gray
 {

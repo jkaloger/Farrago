@@ -46,7 +46,9 @@
                     <div class="social one column">Y</div>
                     <div class="title four columns"><h1>Farrago</h1></div>
                     <div class="spacer two columns"></div>
-                    <div class="fodder two columns u-pull-right">F</div>
+                    <div class="fodder two columns u-pull-right">
+                        <div class="hamburger"><div class="hamburger-in"></div></div>
+                    </div>
                 </div>
             </div>
             <nav class="hdrNav">
@@ -311,6 +313,7 @@
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"/>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/hamburger.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function(){
