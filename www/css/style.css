@@ -66,7 +66,7 @@ h1,h2,h3,h4,h5 {
 	.hdrNav-Sticky
 	{
 		position: fixed;
-		top:0px;
+		top:-65px;
 		height: 65px;
 		line-height: 65px;
 		background: white;
@@ -79,6 +79,10 @@ h1,h2,h3,h4,h5 {
 		/* height larger for a bit of runoff */
 		height: 65px;
 		line-height: 45px;
+		-webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
 		/* DEBUG
 		 * background: yellow;
 		 */
@@ -133,7 +137,7 @@ h1,h2,h3,h4,h5 {
 					.dropdownContent
 					{}
 
-/* Hero  / Gallery */
+/* HERO  | GALLERY */
 .hero
 {}
 	.sliderGallery

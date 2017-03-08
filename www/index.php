@@ -49,6 +49,78 @@
                     <div class="fodder two columns u-pull-right">F</div>
                 </div>
             </div>
+            <nav class="hdrNav">
+                <ul class="navList">
+                    <!--<li class="navItem">
+                        <a class="navLabel"><img height="65px" id="hdrLogo-Sticky" src="img/logoFarrago.png"></a>
+                    </li>-->
+                    <li class="navItem">
+                        <a class="navLabel">
+                            Campus
+                        </a>
+                        <div class="dropdown">
+                            <ul class="dropdownContent">
+                                <?php 
+                                    // create li elements dynamically?
+                                    printf("<li>Dropdown Element</li>")
+                                ?>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navItem">
+                        <a class="navLabel">
+                            Commentary
+                        </a>
+                        <div class="dropdown">
+                            <ul class="dropdownContent">
+                                <?php 
+                                    // create li elements dynamically?
+                                    printf("<li>Dropdown Element</li>")
+                                ?>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navItem">
+                        <a class="navLabel">
+                            Creative
+                        </a>
+                        <div class="dropdown">
+                            <ul class="dropdownContent">
+                                <?php 
+                                    // create li elements dynamically?
+                                    printf("<li>Dropdown Element</li>")
+                                ?>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navItem">
+                        <a class="navLabel">
+                            Video
+                        </a>
+                        <div class="dropdown">
+                            <ul class="dropdownContent">
+                                <?php 
+                                    // create li elements dynamically?
+                                    printf("<li>Dropdown Element</li>")
+                                ?>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navItem">
+                        <a class="navLabel">
+                            Radio
+                        </a>
+                        <div class="dropdown">
+                            <ul class="dropdownContent">
+                                <?php 
+                                    // create li elements dynamically?
+                                    printf("<li>Dropdown Element</li>")
+                                ?>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
             <nav class="hdrNav-Sticky">
                 <ul class="navList">
                     <!--<li class="navItem">
@@ -236,17 +308,37 @@
     
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"/>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.sliderGallery').slick({
-        arrows: false,
-        autoplay: true,
-        dots: true
-      });
-    });
-  </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.sliderGallery').slick({
+                arrows: false,
+                autoplay: true,
+                dots: true
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function(){
+            var nav = $('.hdrNav-Sticky');
+            var anchor = $('.hdrNav').offset().top;
+            $(window).scroll(function(){
+                var sc = $(window).scrollTop();
+                if(sc >= anchor) {
+                    nav.animate({
+                        top: "0px"
+                    },0);
+                } else {
+                    nav.animate({
+                        top: "-65px"
+                    },0);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
