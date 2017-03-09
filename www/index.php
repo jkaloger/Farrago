@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Farrago Magazine</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/skeleton.css">
@@ -318,7 +318,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $('.sliderGallery').slick({
-                arrows: false,
+                arrows: true,
                 autoplay: true,
                 dots: true
             });

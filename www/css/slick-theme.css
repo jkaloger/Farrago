@@ -11,8 +11,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 100%;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -32,7 +32,7 @@
 {
     color: transparent;
     outline: none;
-    background: transparent;
+    opacity: .25;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -51,7 +51,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 60px;
     line-height: 1;
 
     opacity: .75;
@@ -63,50 +63,63 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -0px;
+    height: 100%;
+    background: white;
+    opacity: .45;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: -0px;
+    height: 100%;
+    background: white;
+    opacity: .45;
     left: auto;
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '<';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '>';
 }
 
 .slick-next
 {
-    right: -25px;
+    right: -0px;
+    height: 100%;
+    background: white;
+    opacity: .45;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: -0px;
+    height: 100%;
+    background: white;
+    opacity: .45;
 }
 .slick-next:before
 {
-    content: '→';
+    content: '>';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '<';
 }
 
 /* Dots */
 .slick-dotted.slick-slider
 {
-    margin-bottom: 30px;
+    margin-bottom: 85px;
 }
 
 .slick-dots
 {
+
     position: absolute;
-    bottom: -25px;
+    bottom: -45px;
 
     display: block;
 
@@ -124,8 +137,8 @@
 
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     margin: 0 5px;
     padding: 0;
 
@@ -138,9 +151,9 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
-    padding: 5px;
+    width: 35px;
+    height: 35px;
+    padding: 15px;
 
     cursor: pointer;
 
@@ -162,15 +175,15 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 6px;
-    line-height: 20px;
+    font-size: 35px;
+    line-height: 35px;
 
     position: absolute;
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
 
     content: '•';
     text-align: center;
