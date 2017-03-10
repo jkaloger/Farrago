@@ -328,17 +328,14 @@
     <script type="text/javascript">
         $(function(){
             var nav = $('.hdrNav-Sticky');
-            var anchor = $('.hdrNav').offset().top;
+            var anchor = $('.hdrNav').offset().top
+                       + $('.hdrNav').outerHeight(true);
             $(window).scroll(function(){
                 var sc = $(window).scrollTop();
                 if(sc >= anchor) {
-                    nav.animate({
-                        top: "0px"
-                    },0);
+                    nav.addClass("pull");
                 } else {
-                    nav.animate({
-                        top: "-65px"
-                    },0);
+                   nav.removeClass("pull");
                 }
             });
         });

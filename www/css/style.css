@@ -66,13 +66,23 @@ h1,h2,h3,h4,h5 {
 	.hdrNav-Sticky
 	{
 		position: fixed;
-		top:-65px;
+		top:-85px;
 		height: 65px;
 		line-height: 65px;
 		background: white;
 		z-index:1000;
 		width: 100%;
 		left: 0px;
+		-webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+		-webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+	.pull {
+		top: 0px;
 	}
 	.hdrNav
 	{
@@ -140,11 +150,21 @@ h1,h2,h3,h4,h5 {
 /* HERO  | GALLERY */
 .hero
 {}
-	.sliderGallery
-	{
-		width: 100%;
-		height: 360px;
-		background: gray;
+	@media (min-width: 720px) {
+		.sliderGallery
+		{
+			width: 100%;
+			height: 520px;
+			background: gray;
+		}
+	}
+	@media (max-width: 720px) {
+		.sliderGallery
+		{
+			width: 100%;
+			height: 240px;
+			background: gray;
+		}
 	}
 		.sliderElement img
 		{
