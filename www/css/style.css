@@ -282,11 +282,23 @@ h1,h2,h3,h4,h5 {
 	    -o-transition: all 0.5s ease;
 	    transition: all 0.5s ease;
 	}
+		.hamburger:hover .hamburger-in,
+		.hamburger:hover .hamburger-in::after,
+		.hamburger:hover .hamburger-in::before
+		{
+			background: pink;
+		}
+
 		.hamburgerActive .hamburger-in
 		{
 
-			background: white
+			background: white;
 		}
+			.hamburgerActive:hover .hamburger-in
+			{
+
+				background: white;
+			}
 
 	.hamburger-in::after,
 	.hamburger-in::before
