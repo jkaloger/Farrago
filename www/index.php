@@ -124,12 +124,12 @@
                 </ul>
             </nav>
             <nav class="hdrNav-Sticky">
-                <ul class="navList">
-                    <!--<li class="navItem">
-                        <a class="navLabel"><img height="65px" id="hdrLogo-Sticky" src="img/logoFarrago.png"></a>
-                    </li>-->
-                    <li class="navItem">
-                        <a class="navLabel">
+                <ul class="navList-Sticky">
+                    <li id="hdrLogo-Sticky" class="navItem-Sticky">
+                        <a class="navLabel-Sticky"><img width="15%" id="hdrLogo-Sticky" src="img/header-logo.png"></a>
+                    </li>
+                    <li class="navItem-Sticky">
+                        <a class="navLabel-Sticky">
                             Campus
                         </a>
                         <div class="dropdown">
@@ -141,8 +141,8 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="navItem">
-                        <a class="navLabel">
+                    <li class="navItem-Sticky">
+                        <a class="navLabel-Sticky">
                             Commentary
                         </a>
                         <div class="dropdown">
@@ -154,8 +154,8 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="navItem">
-                        <a class="navLabel">
+                    <li class="navItem-Sticky">
+                        <a class="navLabel-Sticky">
                             Creative
                         </a>
                         <div class="dropdown">
@@ -167,8 +167,8 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="navItem">
-                        <a class="navLabel">
+                    <li class="navItem-Sticky">
+                        <a class="navLabel-Sticky">
                             Video
                         </a>
                         <div class="dropdown">
@@ -180,8 +180,8 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="navItem">
-                        <a class="navLabel">
+                    <li class="navItem-Sticky">
+                        <a class="navLabel-Sticky">
                             Radio
                         </a>
                         <div class="dropdown">
@@ -282,7 +282,8 @@
                 &nbsp;
             </div>
             <div class="one-third column">
-                Sign up to newsletter etc
+                <p>Sign up to newsletter etc</p>
+                <input type="text">
             </div>
             <div class="empty one-third column">
                 &nbsp;

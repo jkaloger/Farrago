@@ -65,6 +65,7 @@ h1,h2,h3,h4,h5 {
 
 	.hdrNav-Sticky
 	{
+		overflow: hidden;
 		position: fixed;
 		top:-85px;
 		height: 65px;
@@ -81,9 +82,59 @@ h1,h2,h3,h4,h5 {
 	    -o-transition: all 0.5s ease;
 	    transition: all 0.5s ease;
 	}
-	.pull {
-		top: 0px;
-	}
+		.pull {
+			top: 0px;
+		}
+		.navList-Sticky
+		{
+			/* since inline-block on li elements will include whitespace
+			 * from \n in source, we set this font-size to 0
+			 * then back to 16px further down
+			 */
+			font-size: 0;
+		}
+			.navList-Sticky a
+			{
+				color: inherit;
+				transition: color .3333s ease;
+				text-decoration: none;
+			}
+			.navList-Sticky li
+			{
+				list-style: none;
+				display: inline-block;
+				/* set back to 16px from 0 */
+				font-size: 16px;
+			}
+			/* conditional for navitem
+			 * text will eventually get too wide for mobile
+			 */
+			@media (min-width: 800px) {
+				.navItem-Sticky
+				{
+					transition: background-color .3333s ease;
+					text-align: center;
+					font-size: 1.2em;
+					width: 15%;
+				}
+			}
+				
+				.navItem-Sticky:hover
+				{
+					background-color: pink;
+					color: white;
+					cursor: pointer;
+				}
+				.navLabel-Sticky
+				{
+					text-transform: uppercase;
+				}
+				.dropdown
+				{
+					display: none;
+				}
+					.dropdownContent
+					{}
 	.hdrNav
 	{
 		/* height larger for a bit of runoff */
@@ -380,21 +431,3 @@ h1,h2,h3,h4,h5 {
 	.tag:hover {
 		cursor: pointer;
 	}
-
-
-
-
-
-
-
-#hdrLogo-Sticky {
-	height: 65px;
-}
-
-
-
-
-
-
-
-
