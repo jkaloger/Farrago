@@ -199,14 +199,20 @@ h1,h2,h3,h4,h5 {
 					{}
 
 /* HERO  | GALLERY */
-.hero
-{}
+.hero *
+{
+}
+	.sliderElement
+	{
+		
+	}
 	@media (min-width: 720px) {
 		.sliderGallery
 		{
 			width: 100%;
 			height: 520px;
 			background: gray;
+			overflow-y: hidden;
 		}
 	}
 	@media (max-width: 720px) {
@@ -215,6 +221,7 @@ h1,h2,h3,h4,h5 {
 			width: 100%;
 			height: 240px;
 			background: gray;
+			overflow-y: hidden;
 		}
 	}
 		.sliderElement img
@@ -348,7 +355,7 @@ h1,h2,h3,h4,h5 {
 			text-decoration: underline;
 		}
 
-	.footerSocial-in img
+	.footerSocial-in object
 	{
 		width: 24%;
 		padding: 0px; margin: 0px;

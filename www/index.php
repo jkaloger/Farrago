@@ -199,9 +199,9 @@
     
         <div class="hero">
             <div class="sliderGallery">
-                <div class="sliderElement">A</div>
-                <div class="sliderElement">B</div>
-                <div class="sliderElement">C</div>
+                <div class="sliderElement"><img src="http://placehold.it/1280x1080"></div>
+                <div class="sliderElement"><img src="http://placehold.it/1280x1080"></div>
+                <div class="sliderElement"><img src="http://placehold.it/1280x1080"></div>
             </div>
 
             <div class="tileGallery">
@@ -298,10 +298,10 @@
                 &nbsp;
             </div>
             <div class="footerSocial-in one-third column">
-                <img src="img/ico/facebook.png">
-                <img src="img/ico/instagram.png">
-                <img src="img/ico/twitter.png">
-                <img src="img/ico/youtube.png">
+                <a href="https://www.facebook.com/farragomagazine/"><object data="img/ico/svg/facebook-square.svg" type="image/svg+xml"><img src=""></object></a>
+                <a href="https://twitter.com/farragomagazine"><object data="img/ico/svg/instagram.svg" type="image/svg+xml"><img src=""></object></a>
+                <a href="https://instagram.com/farragomagazine/"><object data="img/ico/svg/twitter.svg" type="image/svg+xml"><img src=""></object></a>
+                <a href="https://www.youtube.com/channel/UCYGA13ztSrZcyurecH_Fm0w"><object data="img/ico/svg/youtube.svg" type="image/svg+xml"><img src=""></object></a>
             </div>
             <div class="one-third columns">
                 &nbsp;
