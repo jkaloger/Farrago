@@ -282,8 +282,11 @@
                 &nbsp;
             </div>
             <div class="one-third column">
-                <p>Sign up to newsletter etc</p>
-                <input type="text">
+                <form>
+                    <p>Sign up to newsletter etc</p>
+                    <input type="text"><br>
+                    <button type="submit" value="Sign Up">Sign Up</button>
+                </form>
             </div>
             <div class="empty one-third column">
                 &nbsp;
