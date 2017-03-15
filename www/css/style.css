@@ -326,6 +326,12 @@ h1,h2,h3,h4,h5 {
 	.links
 	{}
 
+	.footerSocial-in img
+	{
+		width: 24%;
+		padding: 0px; margin: 0px;
+	}
+
 /* HAMBURGER */
 .hamburger
 {

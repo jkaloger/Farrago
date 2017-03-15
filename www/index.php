@@ -291,6 +291,14 @@
         </div>
 
         <div class="row footerSocial">
+            <div class="one-third column">
+                &nbsp;
+            </div>
+            <div class="footerSocial-in one-third column">
+                <img src="img/ico/facebook.png">
+                <img src="img/ico/instagram.png">
+                <img src="img/ico/twitter.png">
+                <img src="img/ico/youtube.png">
         </div>
 
         <div class="row links">
