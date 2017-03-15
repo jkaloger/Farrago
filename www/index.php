@@ -299,19 +299,36 @@
                 <img src="img/ico/instagram.png">
                 <img src="img/ico/twitter.png">
                 <img src="img/ico/youtube.png">
+            </div>
+            <div class="one-third columns">
+                &nbsp;
+            </div>
         </div>
 
         <div class="row links">
             <div class="FLogo one-third column">
-                <img src="img/logoFarrago_white.png" width="100%">
+                <h1>FARRAGO</h1>
             </div>
             <div class="links one-third column">
                 <ul>
-                    <li></li>
+                    <li><h3>&nbsp;</h3></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li>&nbsp;</li>
+                    <li><a href="#">Contribute</a></li>
+                    <li><a href="#">Got a tip?</a></li>
+                    <li><h3>Sections</h3></li>
+                    <li><a href="#">Campus</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">Society</a></li>
+                    <li><a href="#">Creative</a></li>
+                    <li><a href="#">Comment</a></li>
                 </ul>
             </div>
             <div class="umsuLogo empty one-third column">
-                <img src="img/umsuLogo.png" width="100%">
+                <img src="img/umsuLogo.png" width="96%" style="margin-right: 4%">
             </div>
         </div>
     </div>

@@ -323,8 +323,30 @@ h1,h2,h3,h4,h5 {
 	{
 
 	}
+	.FLogo
+	{
+		text-align: center;
+		font-weight: 800;
+	}
 	.links
 	{}
+		.links ul,
+		.links li
+		{
+			list-style: none;
+			columns: 2;
+			-webkit-columns: 2;
+			-moz-columns: 2;
+		}
+		.links a
+		{
+			color: white;
+			text-decoration: none;
+		}
+		.links a:hover
+		{
+			text-decoration: underline;
+		}
 
 	.footerSocial-in img
 	{
