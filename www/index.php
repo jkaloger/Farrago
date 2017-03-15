@@ -40,10 +40,10 @@
         <header class="hdrOuter">
             <div class="hdrTop">
                 <div class="row">
-                    <div class="social one column">I</div>
-                    <div class="social one column">T</div>
-                    <div class="social one column">F</div>
-                    <div class="social one column">Y</div>
+                    <div class="social one column"><a href="https://www.facebook.com/farragomagazine/"><object data="img/ico/svg/facebook-square-black.svg" type="image/svg+xml"><img src=""></object></a></div>
+                    <div class="social one column">                <a href="https://twitter.com/farragomagazine"><object data="img/ico/svg/instagram-black.svg" type="image/svg+xml"><img src=""></object></a></div>
+                    <div class="social one column">                <a href="https://instagram.com/farragomagazine/"><object data="img/ico/svg/twitter-black.svg" type="image/svg+xml"><img src=""></object></a></div>
+                    <div class="social one column">                <a href="https://www.youtube.com/channel/UCYGA13ztSrZcyurecH_Fm0w"><object data="img/ico/svg/youtube-black.svg" type="image/svg+xml"><img src=""></object></a></div>
                     <div class="title four columns"><h1>Farrago</h1></div>
                     <div class="spacer two columns"></div>
                     <div class="fodder two columns u-pull-right">
