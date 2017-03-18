@@ -42,9 +42,9 @@
             <div class="hdrTop">
                 <div class="row">
                     <div class="social one column"><a href="https://www.facebook.com/farragomagazine/"><object data="img/ico/svg/facebook-square-black.svg" type="image/svg+xml"><img src=""></object></a></div>
-                    <div class="social one column">                <a href="https://twitter.com/farragomagazine"><object data="img/ico/svg/instagram-black.svg" type="image/svg+xml"><img src=""></object></a></div>
-                    <div class="social one column">                <a href="https://instagram.com/farragomagazine/"><object data="img/ico/svg/twitter-black.svg" type="image/svg+xml"><img src=""></object></a></div>
-                    <div class="social one column">                <a href="https://www.youtube.com/channel/UCYGA13ztSrZcyurecH_Fm0w"><object data="img/ico/svg/youtube-black.svg" type="image/svg+xml"><img src=""></object></a></div>
+                    <div class="social one column"><a href="https://twitter.com/farragomagazine"><object data="img/ico/svg/instagram-black.svg" type="image/svg+xml"><img src=""></object></a></div>
+                    <div class="social one column"><a href="https://instagram.com/farragomagazine/"><object data="img/ico/svg/twitter-black.svg" type="image/svg+xml"><img src=""></object></a></div>
+                    <div class="social one column"><a href="https://www.youtube.com/channel/UCYGA13ztSrZcyurecH_Fm0w"><object data="img/ico/svg/youtube-black.svg" type="image/svg+xml"><img src=""></object></a></div>
                     <div class="title four columns"><h1>Farrago</h1></div>
                     <div class="spacer two columns"></div>
                     <div class="fodder two columns u-pull-right">
@@ -53,76 +53,78 @@
                 </div>
             </div>
             <nav class="hdrNav">
-                <ul class="navList">
-                    <!--<li class="navItem">
-                        <a class="navLabel"><img height="65px" id="hdrLogo-Sticky" src="img/logoFarrago.png"></a>
-                    </li>-->
-                    <li class="navItem">
-                        <a class="navLabel">
-                            Campus
-                        </a>
-                        <div class="dropdown">
-                            <ul class="dropdownContent">
-                                <?php 
-                                    // create li elements dynamically?
-                                    printf("<li>Dropdown Element</li>")
-                                ?>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navItem">
-                        <a class="navLabel">
-                            Commentary
-                        </a>
-                        <div class="dropdown">
-                            <ul class="dropdownContent">
-                                <?php 
-                                    // create li elements dynamically?
-                                    printf("<li>Dropdown Element</li>")
-                                ?>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navItem">
-                        <a class="navLabel">
-                            Creative
-                        </a>
-                        <div class="dropdown">
-                            <ul class="dropdownContent">
-                                <?php 
-                                    // create li elements dynamically?
-                                    printf("<li>Dropdown Element</li>")
-                                ?>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navItem">
-                        <a class="navLabel">
-                            Video
-                        </a>
-                        <div class="dropdown">
-                            <ul class="dropdownContent">
-                                <?php 
-                                    // create li elements dynamically?
-                                    printf("<li>Dropdown Element</li>")
-                                ?>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navItem">
-                        <a class="navLabel">
-                            Radio
-                        </a>
-                        <div class="dropdown">
-                            <ul class="dropdownContent">
-                                <?php 
-                                    // create li elements dynamically?
-                                    printf("<li>Dropdown Element</li>")
-                                ?>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
+                <div>
+                    <ul class="navList">
+                        <!--<li class="navItem">
+                            <a class="navLabel"><img height="65px" id="hdrLogo-Sticky" src="img/logoFarrago.png"></a>
+                        </li>-->
+                        <li class="navItem">
+                            <a class="navLabel">
+                                Campus
+                            </a>
+                            <div class="dropdown">
+                                <ul class="dropdownContent">
+                                    <?php 
+                                        // create li elements dynamically?
+                                        printf("<li>Dropdown Element</li>")
+                                    ?>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navItem">
+                            <a class="navLabel">
+                                Commentary
+                            </a>
+                            <div class="dropdown">
+                                <ul class="dropdownContent">
+                                    <?php 
+                                        // create li elements dynamically?
+                                        printf("<li>Dropdown Element</li>")
+                                    ?>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navItem">
+                            <a class="navLabel">
+                                Creative
+                            </a>
+                            <div class="dropdown">
+                                <ul class="dropdownContent">
+                                    <?php 
+                                        // create li elements dynamically?
+                                        printf("<li>Dropdown Element</li>")
+                                    ?>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navItem">
+                            <a class="navLabel">
+                                Video
+                            </a>
+                            <div class="dropdown">
+                                <ul class="dropdownContent">
+                                    <?php 
+                                        // create li elements dynamically?
+                                        printf("<li>Dropdown Element</li>")
+                                    ?>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navItem">
+                            <a class="navLabel">
+                                Radio
+                            </a>
+                            <div class="dropdown">
+                                <ul class="dropdownContent">
+                                    <?php 
+                                        // create li elements dynamically?
+                                        printf("<li>Dropdown Element</li>")
+                                    ?>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </nav>
             <nav class="hdrNav-Sticky">
                 <ul class="navList-Sticky">

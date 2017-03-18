@@ -36,10 +36,36 @@ h1,h2,h3,h4,h5 {
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-bottom: 60px;
+	padding-top: 60px;
 	overflow: hidden;
 }
 
 /* Header */
+header
+{
+	height: 64px;
+}
+	header *
+	{
+		line-height: 64px;
+		text-align: center;
+	}
+	.social img
+	{
+		height: 35px;
+		vertical-align: middle;
+	}
+
+	.fodder img
+	{
+		height: 64px;
+	}
+
+	.title h1
+	{
+		font-weight: 800;
+		font-size: 5em;
+	}
 
 
 /* Navigation */
@@ -58,10 +84,15 @@ h1,h2,h3,h4,h5 {
 	.hdrNav li
 	{
 		padding: 10px;
+		-webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
 	}
 	.hdrNav li:hover
 	{
 		background: pink;
+		color: white;
 		cursor: pointer;
 	}
 
@@ -74,7 +105,25 @@ h1,h2,h3,h4,h5 {
 		-webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
 		box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+		-webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
 	}
+
+/* HERO */
+.hero
+{}
+	.elementImage
+	{
+		height: 480px;
+		overflow: hidden;
+	}
+		.sliderElement img
+		{
+			width: 100%;
+			height: auto;
+		}
 
 /* SECTIONS */
 section
@@ -207,7 +256,13 @@ footer
 	}
 	.footerSocial
 	{
-
+		text-align: center;
+	}
+	.footerSocial img
+	{
+		width: 56px;
+		padding: 5%;
+		vertical-align: middle;
 	}
 	.FLogo
 	{
