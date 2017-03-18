@@ -3,3 +3,4 @@
 
 ## Live
 [Live Preview](https://farrago.jkaloger.com/Farrago/www/)
+[Prototype Preview](https://farrago.jkaloger.com/Farrago/proto/)
