@@ -1,0 +1,81 @@
+/* HAMBURGER */
+.hamburger
+{
+	display: none;
+	margin-top: 16px;
+	display: inline-block;
+	height: 28px;
+	width: 42px;
+	padding: 10px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+	.hamburger-in,
+	.hamburger-in::after,
+	.hamburger-in::before
+	{
+		position: absolute;
+		width: 42px;
+		height: 3px;
+		background: black;
+		-webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+		.hamburger:hover .hamburger-in,
+		.hamburger:hover .hamburger-in::after,
+		.hamburger:hover .hamburger-in::before
+		{
+			background: pink;
+		}
+
+		.hamburgerActive .hamburger-in
+		{
+
+			background: white;
+		}
+			.hamburgerActive:hover .hamburger-in
+			{
+
+				background: white;
+			}
+
+	.hamburger-in::after,
+	.hamburger-in::before
+	{
+		content: '';
+		display: block;
+	}
+	.hamburger-in::after
+	{
+		top: 14px;
+	}
+		.hamburgerActive .hamburger-in::after
+		{
+			-ms-transform: rotate(-45deg);
+		    -webkit-transform: rotate(-45deg);
+		    transform: rotate(-45deg);
+		    top: 0px;
+		}
+
+	.hamburger-in::before
+	{
+		top: -14px;
+	}
+		.hamburgerActive .hamburger-in::before
+		{
+			-ms-transform: rotate(45deg);
+		    -webkit-transform: rotate(45deg);
+		    transform: rotate(45deg);
+		    top: 0px;
+		}
+	.hamburger:hover
+	{
+		cursor:pointer;
+	}
+	.active
+	{}
