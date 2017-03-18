@@ -6,10 +6,10 @@ $(function(){
         var sc = $(window).scrollTop();
         if(sc >= anchor) {
             nav.addClass('sticky');
-            console.log(">");
+            $('#logo').removeClass('hidden');
         } else {
            nav.removeClass('sticky');
-           console.log("<");
+           $('#logo').addClass('hidden');
         }
     });
 });

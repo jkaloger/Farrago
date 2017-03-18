@@ -10,7 +10,6 @@
 }
 
 
-
 /* Fonts */
 @font-face {
     font-family: "Archer Pro";
@@ -19,7 +18,7 @@
 
 body
 {
-	background: gray;
+	background: url("../img/bg.jpg") fixed top / cover black;
 	font-family: "Archer Pro";
 }
 
@@ -83,11 +82,12 @@ header
 	}
 	.hdrNav li
 	{
-		padding: 10px;
+		line-height: 65px;
 		-webkit-transition: all 0.5s ease;
 	    -moz-transition: all 0.5s ease;
 	    -o-transition: all 0.5s ease;
 	    transition: all 0.5s ease;
+	    text-transform: uppercase;
 	}
 	.hdrNav li:hover
 	{
@@ -95,6 +95,18 @@ header
 		color: white;
 		cursor: pointer;
 	}
+
+	.hdrNav li
+	{
+		height: 65px;
+		overflow: hidden;
+		vertical-align: middle;
+	}
+		.hdrNav li img
+		{
+			height: 75%;
+			vertical-align: middle;
+		}
 
 	.sticky
 	{
@@ -294,3 +306,9 @@ footer
 		width: 24%;
 		padding: 0px; margin: 0px;
 	}
+
+/* utils */
+.hidden
+{
+	display: none; !important
+}
