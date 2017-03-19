@@ -14,12 +14,14 @@
 @font-face {
     font-family: "Archer Pro";
     src: url("../Fonts/ArcherPro-Medium.otf");
+
 }
 
 body
 {
-	background: url("../img/bg.jpg") fixed top / cover black;
+	
 	font-family: "Archer Pro";
+	background: url('../img/bg.jpg') top fixed / cover black;
 }
 
 h1,h2,h3,h4,h5 {
@@ -28,7 +30,6 @@ h1,h2,h3,h4,h5 {
 }
 
 /* CONTAINER */
-
 .container
 {
 	background: white;
@@ -42,10 +43,12 @@ h1,h2,h3,h4,h5 {
 /* Header */
 header
 {
+	z-index: 200;
 	height: 64px;
 }
 	header *
 	{
+		z-index: 200;
 		line-height: 64px;
 		text-align: center;
 	}
@@ -65,6 +68,7 @@ header
 		font-weight: 800;
 		font-size: 5em;
 	}
+
 
 
 /* Navigation */
@@ -122,6 +126,54 @@ header
 	    -o-transition: all 0.5s ease;
 	    transition: all 0.5s ease;
 	}
+
+	.mobile-menu {
+		padding-top: 140px;
+		pointer-events: none;
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		opacity: 0;
+		background: #FAFAFA;
+		-webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+
+	.mobile-menu ul {
+
+		list-style: none;
+		width: 100%;
+		height: calc(100% - 140px);
+		display: table;
+		table-layout: fixed;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.mobile-menu li {
+		text-align: center;
+		display: table-row;
+		border: 1px solid black;
+	}
+		.mobile-menu li:hover {
+			cursor: pointer;
+		}
+
+	.mobile-menu a {
+		text-transform: uppercase;
+		display: table-cell;
+		vertical-align: middle;
+	}
+		.pullUpMenu
+		{
+			z-index: 100;
+			pointer-events: all;
+			opacity: 1;
+		}
 
 /* HERO */
 .hero
