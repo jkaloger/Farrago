@@ -3,7 +3,10 @@
 
 <section>
     <div class="sectionTitle twelve columns">
-        <h2><span>Search Results</span></h2>
+        <h2><span><?php
+					$category = get_the_category(); 
+					echo $category[0]->cat_name;
+				?></span></h2>
     </div>
 
     <?php if ( have_posts() ) : ?>
@@ -14,7 +17,6 @@
                     <?php the_post_thumbnail(); ?>
                 </div>
                 <h5 class="articleTitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                <span class="articleSubtitle"><?php the_author(); ?></span>
                 <p class="articlePreview"><?php the_excerpt(); ?></p>
                 <span class="articleAge"><?php the_date(); ?></span>
                 <?php

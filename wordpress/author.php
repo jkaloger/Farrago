@@ -3,7 +3,7 @@
 
 <section>
     <div class="sectionTitle twelve columns">
-        <h2><span>Search Results</span></h2>
+        <h2><span><?php echo get_the_author();	?></span></h2>
     </div>
 
     <?php if ( have_posts() ) : ?>
